@@ -1,0 +1,52 @@
+
+ul.lista li:last-child{
+    background-color: rgb(55, 114, 204);
+}
+.lista li:nth-child(odd){
+    text-decoration: underline green;
+}
+ul.lista li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+ul.lista li:nth-child(1)::after{
+    content: "😀"
+    
+}
+ul.lista li:nth-child(2)::after{
+    content: "😁";
+    
+}
+ul.lista li:nth-child(3)::after{
+    content: "🙃";
+    
+}
+ul.lista li:nth-child(4)::after{
+    content: "🙀";
+    
+}
+ul.lista li:nth-child(5)::after{
+    content: "🙉";
+    
+}
+ul.lista li:nth-child(6)::after{
+    content: "👻";
+    
+}
+li[lang]{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#provincias{
+    list-style-type: upper-roman;
+}
+#provincias li:nth-child(2){
+    list-style: none;
+}
+/* si quieres tener el punto es esta seria el siguiete codigo */
+/* #provincias li:nth-child(2){
+    list-style:initial;
+}
+ */
