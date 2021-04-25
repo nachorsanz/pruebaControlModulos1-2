@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(223, 180, 102);
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+
+    align-content: center;
+}
+header{
+    display: block;
+    flex-direction: column;
+    background-color: white;
+    margin: 0;
+    padding: 2rem;
+    
+    
+
+ 
+    
+}
+header h1{
+    text-align: center;
+}
+
+article{
+    padding: 2rem;
+    background-color: purple;
+    margin: 0;
+    color: white;
+    
+}
+.logo{
+    width: 10%;
+    padding:5px;
+    margin-right: 10px;
+    display: inline;
+    justify-items: center;
+ 
+   
+}
+
+.people{
+    border-radius: 50% 50%;
+    height:150px;
+    width: 150px;
+    margin-left: 3rem;
+    
+
+
+    
+}
+.titulo{
+    grid-column: 2 /3;
+    grid-row: 1;
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+
+}
+section h1{
+    color: black;
+}
+.contenedor{
+    width:auto;
+    display: flex;
+    grid-column: 2 / 3;
+    grid-row: 2;
+    justify-content: space-between;
+    gap: 20px;
+   
+}  
+.contenedor section {
+    width: 20rem;
+    justify-items: center; 
+    display: block; 
+}
+.contenedor section:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+.titulo{
+    animation-duration: 2s;
+    animation-name: titulo;
+}
+@keyframes titulo{
+    to {
+        opacity: 100%;
+    }
+    from{
+        opacity: 0%;
+    }
+}
+.marco{
+ 
+    animation-duration: 4s;
+    animation-name: marco;
+    
+   
+}
+@keyframes marco{
+    to {
+        
+        opacity: 100%;
+    } from
+    {
+        opacity: 50%;
+     
+    } from
+    {
+        opacity: 0%;
+    }
+  
+}
+.pepi{
+ 
+    animation-duration: 6s;
+    animation-name: pepi;
+    
+   
+}
+@keyframes pepi{
+    to {
+        
+        opacity: 100%;
+    } from
+    {
+        opacity: 50%;
+     
+    } from
+    {
+        opacity: 0%;
+    }
+  
+  
+}
+.bot{
+ 
+    animation-duration: 8s;
+    animation-name: bot;
+    
+   
+}
+@keyframes bot{
+    to {
+        
+        opacity: 100%;
+    } from
+    {
+        opacity: 50%;
+     
+    } from
+    {
+        opacity: 0%;
+    }
+  
+}
